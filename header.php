@@ -13,7 +13,9 @@
  <?php
  if (isset($_SESSION['email'])) {
  ?>
- 
+ <li><a href = "user.php" style=" font-family: 'Montserrat', sans-serif;"><span class = "glyphicon glyphicon-user"></span> <?php echo $_SESSION['email'] ?> </a></li>
+ <li><a href = "cart.php" style=" font-family: 'Montserrat', sans-serif;"><span class = "glyphicon glyphicon-shopping-cart"></span> Cart </a></li>
+ <li><a href = "setting.php" style=" font-family: 'Montserrat', sans-serif;"><span class = "glyphicon glyphicon-user"></span>
 Settings</a></li>
  <li><a href = "logout.php" style=" font-family: 'Montserrat', sans-serif;"><span class = "glyphicon glyphicon-log-out"></span> Logout</a></li>
  ?>
